@@ -184,6 +184,10 @@ img {
   text-decoration: none;
   color: black;
 }
+.navigation a:hover {
+  text-decoration: underline;
+  color: #17a2b8;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -296,6 +300,15 @@ img {
   color: #ffffff;
   text-align: center;
   font-size: 20px;
+}
+.home .content-pick .destination .btn:hover {
+  background: #117a8b;
+  cursor: pointer;
+}
+.home .content-pick .destination .btn:active {
+  background: #117a8b;
+  box-shadow: 0 5px #0c525d;
+  transform: translateY(4px);
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
